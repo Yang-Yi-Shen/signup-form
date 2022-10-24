@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    display: flex;
+    margin: 0px;
+    background-color: rgba(246, 248, 250, 0.927);
+    font-family: 'roboto';
+}
+
+#sidebar {
+    width: 500px;
+    height: 100vh;
+    background-color: lightgrey;
+}
+
+#sidebar img {
+    width: 400px;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 50% 60%;
+}
+
+#logo-background {
+    width: 400px;
+    height: 120px;
+    top: 100px;
+    opacity: 0.3;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-background img {
+    height: 100px;
+    width: 75px;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+#main-text {
+    margin: 50px 50px 0px;
+}
+
+main form {
+    width: 100%;
+    box-shadow: 0px 3px 10px -3px lightgrey;
+    background-color: white;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+#form-content {
+    display: flex;
+    gap: 25px;
+}
+
+.column {
+    width: 280px;
+    padding: 30px 0px
+}
+
+input {
+    width: inherit;
+    height: 30px;
+    display: block;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+}
+
+input:focus {
+    border: 1px solid rgb(19, 102, 255);
+}
+
+button {
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin: 30px;
+    color: white;
+    background-color: rgb(202, 201, 200);
+    box-shadow: 3px 3px 10px -3px lightgrey;
+}
